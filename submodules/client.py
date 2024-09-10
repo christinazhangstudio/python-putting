@@ -18,7 +18,7 @@ def main():
     bearer_token = generate_bearer_token(sso_url, client_id, sso_resource, client_secret)
 
     # read in certificate
-    with open(cert_tsla_path, 'rb') as f:
+    with open(cert_path, 'rb') as f:
         trusted_certs = f.read()
 
     # create credentials
