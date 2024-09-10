@@ -19,5 +19,5 @@ six
 urllib3
 ```
 ```
-export PYTHONPATH=/mnt/c/Users/chrzhang/go/src/github.com/christinazhangstudio/service/protos/proto/src/python/czorg/service/v1:$PYTHONPATH
+export PYTHONPATH=/mnt/c/Users/chrzhang/go/src/github.com/christinazhangstudio/service/protos/proto/src/python/czorg/abc-service/v1:$PYTHONPATH
 ```
