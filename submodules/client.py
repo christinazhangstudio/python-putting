@@ -29,7 +29,7 @@ def main():
         metadata = (("authorization", "Bearer " + bearer_token),)
         stub = abc_grpc.ABCServiceStub(channel)
 
-        request = abc_pb.GetAbcRequest(abc='CA-00070777')
+        request = abc_pb.GetAbcRequest(abc='abc-input')
         response = stub.GetAbc(request=request, metadata=metadata)
         print(f"Response: {response}")
 
